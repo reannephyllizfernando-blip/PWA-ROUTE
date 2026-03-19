@@ -51,7 +51,7 @@
             let route = document.getElementById("route").value;
 
             let routes = JSON.parse(localStorage.getItem("iloiloRoutes")) || [];
-            routes.push(route);   // corrected line
+            routes.push(route);   
 
             localStorage.setItem("iloiloRoutes", JSON.stringify(routes));
             alert("route saved succesfuly!");
